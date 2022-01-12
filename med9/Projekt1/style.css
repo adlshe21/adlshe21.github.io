@@ -1,0 +1,42 @@
+.hudra{
+	height: 500px;
+	width: 500px;
+	
+}
+
+.hudra2{
+	height: 500px;
+	width: 500px;
+    
+}
+
+.hudra3{
+
+      height: 500px;
+      width: 500px;
+      
+}
+body{
+	background-color: yellow;
+}
+h1{
+	background-color: red;
+	font-size: 50px;
+}
+p{
+	font-size: 30px;
+
+}
+ul{
+	font-size: 25px;
+}
+li{
+	font-size: 20px;
+}
+.moon{
+	height: 600px;
+	width: 650px;
+}
+.k{
+	background-color: blue;s
+}

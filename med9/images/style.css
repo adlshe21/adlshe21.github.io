@@ -1,0 +1,28 @@
+body{
+	background-color:
+} 
+img {
+	width: 500px;
+   margin: 20px;
+}
+ .doza{
+  float: right;
+
+ }
+ .hudra{
+   border-radius: 50px;
+   float: left;
+ }
+
+.problemi {
+	 border-radius: 50px;
+	 float: left;
+}
+ .dmk{
+ 	border-radius: 50px;
+ 	float: right;
+ }
+ .unikkatil{
+ 	float: left;
+}
+ 
