@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+	font-family: Mochiy Pop P One;
+    margin: 30px;
+    background-color: dodgerblue;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+h2{
+	font-size: 40px;
+	text-align: right;
+	margin: 30px;
+	background-color: cadetblue;
+	font-family: Mochiy Pop P One;
+
+}
+p{
+	font-size: 25px;
+	column-count: 3;
+	line-height: 1.5;
+	margin: 15px;
+	font-family: Luxurious Roman;
+}
+
+.a {
+	font-size: 50px;
+	font-family: Architects Daughter;
+	margin: 30px;
+}
+body{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 7%, rgba(58,52,161,1) 49%, rgba(21,18,246,1) 75%);
+	color: white
+}
