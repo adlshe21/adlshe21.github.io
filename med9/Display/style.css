@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+
+h2{
+	font-size: 20px;
+	padding: 30px;
+	background-color: rgb(213,115,12);
+	display: inline-block;
+	font-family: Mochiy Pop P One;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+}
+.green{
+	background-color: green;
+    letter-spacing: 6px;
+
+}
+.blue{
+	background-color: blue;
+	font-size: 30px;
+}
+
+a{
+	display: block;
+	padding: 30px;
+	margin: 10px;
+    font-size: 30px;
+    border: 3px solid blue;
+    background-color: lightblue;
+
+
+}
+p{
+	font-size: 25px;
+	column-count: 3;
+	line-height: 1.5;
+	margin: 15px;
+	font-family: Luxurious Roman;
+}
+body{
+	background: linear-gradient(90deg, rgba(26,57,40,1) 9%, rgba(22,128,69,1) 32%, rgba(15,74,41,1) 62%, rgba(255,252,0,1) 98%);
+	color: white
+}
+img {
+	width: 500px;
+   margin: 20px;
+}
+ .doza{
+  float: right;
+
+ }
+ .hudra{
+   border-radius: 50px;
+   float: left;
+ }
+
+.problemi {
+	 border-radius: 50px;
+	 float: left;
+}
+ .dmk{
+ 	border-radius: 50px;
+ 	float: right;
+ }
+ .unikkatil{
+ 	float: left;
+}
+ li{
+ 	font-size: 60px
+ 	background-color:black;
+
+ }
