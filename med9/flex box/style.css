@@ -1,0 +1,48 @@
+.first{
+	background: linear-gradient(90deg, rgba(56,82,112,1) 19%, rgba(31,133,44,1) 73%);
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+}
+
+p{
+	background-color: red;
+	padding: 10px;
+	margin: 10px;
+
+}
+.second{
+	background: linear-gradient(90deg, rgba(133,31,110,1) 15%, rgba(133,31,110,1) 20%, rgba(203,5,5,1) 74%);
+	justify-content: center;
+	height: 400px;
+	align-items: center;
+	display: flex;
+}
+
+.third{
+	background: linear-gradient(90deg, rgba(31,133,113,1) 20%, rgba(249,255,5,1) 80%);
+	height: 400px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+
+}
+img{
+	height: 150px;
+	width: 200px;
+}
+
+.forth{
+	background: radial-gradient(circle, rgba(150,0,251,1) 11%, rgba(253,47,47,1) 18%, rgba(252,176,69,1) 60%);
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+
+h1{
+	font-family: Mochiy Pop P One;
+}
