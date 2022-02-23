@@ -1,48 +1,69 @@
-.first{
-	background: linear-gradient(90deg, rgba(56,82,112,1) 19%, rgba(31,133,44,1) 73%);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,100&display=swap');
+body{
+	margin: 0;
+}
+
+
+
+header{	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(hudra.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+
+header h1{
+
+	padding: 30px;
+	background-color: rgba(211, 122,321,123);
+	border-radius: 20px;
+	font-family: "Roboto Serif"
+
+}
+main{
+	background: linear-gradient(90deg, rgba(2,0,36,1) 10%, rgba(9,9,121,1) 29%, rgba(0,212,255,1) 100%);
+	padding: 80px;
+	font-family: "Noto Sans JP"
+	}
+
+main p{
+	column-count: 4;
+	color: white;
+}
+
+#info{
+	height: 300px;
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+footer{
 	height: 400px;
 	display: flex;
 	justify-content: space-evenly;
-	align-items: stretch;
-}
-
-p{
-	background-color: red;
-	padding: 10px;
-	margin: 10px;
-
-}
-.second{
-	background: linear-gradient(90deg, rgba(133,31,110,1) 15%, rgba(133,31,110,1) 20%, rgba(203,5,5,1) 74%);
-	justify-content: center;
-	height: 400px;
 	align-items: center;
-	display: flex;
+	background-image: url(hum.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
-.third{
-	background: linear-gradient(90deg, rgba(31,133,113,1) 20%, rgba(249,255,5,1) 80%);
-	height: 400px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
-
-}
-img{
-	height: 150px;
-	width: 200px;
-}
-
-.forth{
-	background: radial-gradient(circle, rgba(150,0,251,1) 11%, rgba(253,47,47,1) 18%, rgba(252,176,69,1) 60%);
-	height: 400px;
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
-
-}
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
-
-h1{
-	font-family: Mochiy Pop P One;
+footer p{
+	padding: 20px;
+	background-color: rgba(211, 122,321,123);
+	border-radius: 20px;
 }
