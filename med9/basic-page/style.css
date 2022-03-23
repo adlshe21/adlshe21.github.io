@@ -12,8 +12,9 @@
 
 
 
-
-
+:root{
+	scroll-behavior: smooth;
+}
 
 
 
@@ -81,8 +82,28 @@ main h2 {
 	color: darkblue;
 }
 
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
 
 
+section .left{
+	width: 60%;
+	background-color: red;
+	padding: 30px;
+
+
+
+
+}
+section .right{
+width: 40%;
+	background-color: purple;
+	padding: 30px;
+
+}
 footer{
 	display: flex;
 	justify-content: space-evenly;
@@ -95,4 +116,31 @@ footer p {
 	padding: 15px;
 	color: darkblue;
 	background-color: white;
+}
+#home header{
+	background-image: url("header-background.jpg");
+}
+
+#home #pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+
+
+#home #pictures img{
+	width: 200px;
+	margin: 10px;
+	border: 2px solid darkblue;
+}
+#contact header{
+	background-image: url("contact-header-background.jpg");
+}
+#contact main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding:60px;
 }
