@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightgray;
+}
+article{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+article .left{
+    height: 180px;
+    width: 320px;
+    background-image: url('ironi kirurgu.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+   
+}
+article .right{
+    position: relative;
+    height: 180px;
+    width: 320px;
+    background: linear-gradient(90deg, rgba(0,43,228,1) 16%, rgba(21,245,227,1) 82%);
+    padding: 20px;
+}
+article p{
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    color: white;
+    background-color: blue;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Roboto';
+    z-index: 20;
+
+}
+
+
+article h1{
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    color: blue;
+    background-color: white;
+    padding: 5px;
+    font-size: 35px;
+    font-family: 'Roboto';
+}
