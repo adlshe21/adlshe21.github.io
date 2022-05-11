@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	background: cornflowerblue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+	font-family: 'Roboto'
+	font-size: 18px;
+	padding: 10px 18px;
+	border: 2px;
+	border-radius: 15px;
+}
+ nav ul li a:hover{
+ 	background-color: lightblue;
+ 	transition: 0.1s ease;
+ 	padding: 10px 30px;
+ }
+ header{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-image: url(hudra1.jpg);
+ 	background-position: center;
+ 	background-size: cover;
+ 	height: 500px;
+ }
+ header
